@@ -41,7 +41,7 @@ platform :ios do
 
     previous_build_number = latest_testflight_build_number(
       app_identifier: "com.YRBFAP8T3T.loopkit.loop"
-      api_key: api_key,
+      api_key: api_key
     )
 
     current_build_number = previous_build_number + 1
